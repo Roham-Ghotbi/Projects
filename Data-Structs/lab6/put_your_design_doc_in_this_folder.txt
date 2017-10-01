@@ -1,0 +1,43 @@
+Classes:
+
+class Table:
+	
+	String name;	
+	
+	Map<String, Column> header;
+	
+	//connects the header elements to each individual columns
+	Map connector;
+	
+	//array of columns represented by array lists
+	Column[] columns;
+
+	//create Column ADT
+		class Column:
+			String name;
+			String type;
+			//constructor Column
+			public Column(String type, String name) {
+
+				//initialize arraylist with given type
+				ArrayList<type> column = new ArrayList;
+
+				this.name = name;
+			}
+
+			//create methods for getting column values
+
+	//constructor for Table
+	public Table() {
+		//initialize each column given the user imputs
+
+		//map the header names to each column
+	}
+	
+One possible problem we will encounter is how to determine the types of the columns when we want to perfom certain operations (i.e. addition, subtraction, etc.)
+
+We will need to define helper methods for our column ADT to get certain values from the columns
+
+We decided to create an entire new ADT for our columns so as to make it easier to control what type each column will be
+
+The items of each columns will be represented by an ArrayList that is held within the column ADT

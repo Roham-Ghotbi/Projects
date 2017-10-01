@@ -1,0 +1,1 @@
+The Only reason is that we are working on the select naN and NoValue and that took longer that expected(SELECT IN GENERAL)

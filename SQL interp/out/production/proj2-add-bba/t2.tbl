@@ -1,0 +1,4 @@
+x int z float
+2,NaN
+NaN,9
+NOVALUE,NaN
